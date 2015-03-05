@@ -1,0 +1,239 @@
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----------------------contenidos perro--------------------------*/
+
+.header {display:block; width:249px; height:95px; position:absolute; top:20px; left:20px}
+.ruedapeque{ position:absolute; top:15px; left:1066px}
+.titcategoria1g{ width:438px; height:163px; position:absolute; top:300px; left:20px; opacity:0;}
+.titcategoria2g{ width:438px; height:163px; position:absolute; top:200px; left:20px; opacity:0;}
+.titcategoria3g{ width:438px; height:163px; position:absolute; top:410px; left:20px; opacity:0;}
+
+.portada{position:absolute; top:140px; left:600px; opacity:0;}
+.siguiente{ position:absolute; top:675px; left:1050px }
+.anterior{position:absolute; top:675px; left:20px}
+
+.siguiente, .anterior{opacity:0;  filter: alpha(opacity=0); /* For IE8 and earlier */}
+
+.titulocatint{display:block; position:absolute; top:10px; left:500px}
+
+.basetextos{ background:url(../img/base-textos.png) no-repeat; width:1139px; height:518px; position:absolute; top:160px; left:60px;}
+
+/*-----------------------optistart--------------------------*/
+.optistarttxt1{position:absolute; top:200px; left:120px}
+.optistarttxt2{position:absolute; top:260px; left:120px}
+.optistarttxt3{position:absolute; top:580px; left:100px}
+.optistarttxt4{position:absolute; top:240px; left:800px}
+
+.optistarttxt5{position:absolute; top:200px; left:120px}
+.optistarttxt6{position:absolute; top:260px; left:120px}
+.optistarttxt7{position:absolute; top:400px; left:120px}
+.optistarttxt8{position:absolute; top:240px; left:500px}
+.optistarttxt9{position:absolute; top:240px; left:850px}
+
+.optistarttxt10{position:absolute; top:200px; left:100px}
+.optistarttxt11{position:absolute; top:240px; left:100px}
+.optistarttxt12{position:absolute; top:320px; left:100px}
+.optistarttxt13{position:absolute; top:320px; left:460px}
+.optistarttxt14{position:absolute; top:320px; left:830px}
+
+.optistarttxt15{position:absolute; top:200px; left:100px}
+.optistarttxt16{position:absolute; top:240px; left:100px}
+.optistarttxt17{position:absolute; top:200px; left:760px}
+
+.optistarttxt18{position:absolute; top:200px; left:100px}
+.optistarttxt19{position:absolute; top:240px; left:100px}
+.optistarttxt20{position:absolute; top:520px; left:100px}
+.optistarttxt21{position:absolute; top:200px; left:740px}
+
+.optistarttxt22{position:absolute; top:200px; left:100px}
+.optistarttxt23{position:absolute; top:240px; left:100px}
+.optistarttxt24{position:absolute; top:200px; left:770px}
+
+.optistarttxt25{position:absolute; top:200px; left:100px}
+.optistarttxt26{position:absolute; top:230px; left:100px}
+.optistarttxt27{position:absolute; top:520px; left:100px}
+.optistarttxt28{position:absolute; top:200px; left:730px}
+
+.optistarttxt29{position:absolute; top:200px; left:100px}
+.optistarttxt30{position:absolute; top:240px; left:100px}
+.optistarttxt31{position:absolute; top:200px; left:760px}
+
+.optistarttxt32{position:absolute; top:200px; left:100px}
+.optistarttxt33{position:absolute; top:225px; left:100px}
+.optistarttxt34{position:absolute; top:520px; left:100px}
+.optistarttxt35{position:absolute; top:200px; left:740px}
+
+
+/*-----------------------optilife--------------------------*/
+.optilifetxt1{position:absolute; top:200px; left:120px}
+.optilifetxt2{position:absolute; top:260px; left:120px}
+.optilifetxt3{position:absolute; top:480px; left:120px}
+.optilifetxt4{position:absolute; top:240px; left:800px}
+
+.optilifetxt5{position:absolute; top:200px; left:120px}
+.optilifetxt6{position:absolute; top:260px; left:120px}
+.optilifetxt7{position:absolute; top:400px; left:120px}
+.optilifetxt8{position:absolute; top:240px; left:500px}
+.optilifetxt9{position:absolute; top:240px; left:850px}
+
+.optilifetxt10{position:absolute; top:200px; left:100px}
+.optilifetxt11{position:absolute; top:240px; left:100px}
+.optilifetxt12{position:absolute; top:300px; left:100px}
+.optilifetxt13{position:absolute; top:300px; left:460px}
+.optilifetxt14{position:absolute; top:300px; left:830px}
+
+.optilifetxt15{position:absolute; top:200px; left:100px}
+.optilifetxt16{position:absolute; top:240px; left:100px}
+.optilifetxt17{position:absolute; top:200px; left:760px}
+
+.optilifetxt18{position:absolute; top:200px; left:100px}
+.optilifetxt19{position:absolute; top:225px; left:100px}
+.optilifetxt20{position:absolute; top:520px; left:100px}
+.optilifetxt21{position:absolute; top:200px; left:740px}
+
+.optilifetxt22{position:absolute; top:200px; left:100px}
+.optilifetxt23{position:absolute; top:240px; left:100px}
+.optilifetxt24{position:absolute; top:200px; left:770px}
+
+.optilifetxt25{position:absolute; top:200px; left:100px}
+.optilifetxt26{position:absolute; top:220px; left:100px}
+.optilifetxt27{position:absolute; top:520px; left:100px}
+.optilifetxt28{position:absolute; top:200px; left:690px}
+
+.optilifetxt29{position:absolute; top:200px; left:100px}
+.optilifetxt30{position:absolute; top:240px; left:100px}
+.optilifetxt31{position:absolute; top:200px; left:760px}
+
+.optilifetxt32{position:absolute; top:200px; left:100px}
+.optilifetxt33{position:absolute; top:225px; left:100px}
+.optilifetxt34{position:absolute; top:520px; left:100px}
+.optilifetxt35{position:absolute; top:180px; left:740px}
+
+/*-----------------------optiage--------------------------*/
+.optiagetxt1{position:absolute; top:200px; left:120px}
+.optiagetxt2{position:absolute; top:260px; left:120px}
+.optiagetxt3{position:absolute; top:480px; left:120px}
+.optiagetxt4{position:absolute; top:240px; left:800px}
+
+.optiagetxt5{position:absolute; top:200px; left:120px}
+.optiagetxt6{position:absolute; top:260px; left:120px}
+.optiagetxt7{position:absolute; top:450px; left:115px}
+.optiagetxt8{position:absolute; top:240px; left:500px}
+.optiagetxt9{position:absolute; top:240px; left:800px}
+
+.optiagetxt10{position:absolute; top:200px; left:100px}
+.optiagetxt11{position:absolute; top:240px; left:100px}
+.optiagetxt12{position:absolute; top:310px; left:200px}
+.optiagetxt13{position:absolute; top:310px; left:650px}
+
+.optiagetxt14{position:absolute; top:200px; left:100px}
+.optiagetxt15{position:absolute; top:240px; left:100px}
+.optiagetxt16{position:absolute; top:200px; left:760px}
+
+.optiagetxt17{position:absolute; top:200px; left:100px}
+.optiagetxt18{position:absolute; top:225px; left:100px}
+.optiagetxt19{position:absolute; top:520px; left:100px}
+.optiagetxt20{position:absolute; top:200px; left:740px}
+
+.optiagetxt21{position:absolute; top:200px; left:100px}
+.optiagetxt22{position:absolute; top:240px; left:100px}
+.optiagetxt23{position:absolute; top:200px; left:700px}
+
+.optiagetxt24{position:absolute; top:200px; left:100px}
+.optiagetxt25{position:absolute; top:240px; left:100px}
+.optiagetxt26{position:absolute; top:520px; left:100px}
+.optiagetxt27{position:absolute; top:190px; left:730px}
+
+/*-----------------------optifit--------------------------*/
+.optifittxt1{position:absolute; top:200px; left:120px}
+.optifittxt2{position:absolute; top:240px; left:120px}
+.optifittxt3{position:absolute; top:520px; left:120px}
+.optifittxt4{position:absolute; top:200px; left:800px}
+
+.optifittxt5{position:absolute; top:200px; left:120px}
+.optifittxt6{position:absolute; top:260px; left:120px}
+.optifittxt7{position:absolute; top:200px; left:740px}
+.optifittxt8{position:absolute; top:360px; left:100px}
+.optifittxt9{position:absolute; top:360px; left:400px}
+.optifittxt10{position:absolute; top:360px; left:770px}
+
+.optifittxt11{position:absolute; top:200px; left:100px}
+.optifittxt12{position:absolute; top:300px; left:100px}
+.optifittxt13{position:absolute; top:240px; left:750px}
+
+.optifittxt14{position:absolute; top:200px; left:100px}
+.optifittxt15{position:absolute; top:230px; left:100px}
+.optifittxt16{position:absolute; top:520px; left:100px}
+.optifittxt17{position:absolute; top:200px; left:740px}
+
+/*-----------------------optiderma--------------------------*/
+.optidermatxt1{position:absolute; top:200px; left:120px}
+.optidermatxt2{position:absolute; top:240px; left:120px}
+.optidermatxt3{position:absolute; top:520px; left:120px}
+.optidermatxt4{position:absolute; top:240px; left:800px}
+
+.optidermatxt5{position:absolute; top:200px; left:120px}
+.optidermatxt6{position:absolute; top:260px; left:120px}
+.optidermatxt7{position:absolute; top:460px; left:120px}
+.optidermatxt8{position:absolute; top:260px; left:500px}
+.optidermatxt9{position:absolute; top:260px; left:800px}
+
+.optidermatxt10{position:absolute; top:220px; left:100px}
+.optidermatxt11{position:absolute; top:260px; left:100px}
+.optidermatxt12{position:absolute; top:220px; left:800px}
+
+.optidermatxt13{position:absolute; top:200px; left:100px}
+.optidermatxt14{position:absolute; top:280px; left:100px}
+.optidermatxt15{position:absolute; top:200px; left:790px}
+
+.optidermatxt16{position:absolute; top:200px; left:100px}
+.optidermatxt17{position:absolute; top:240px; left:100px}
+.optidermatxt18{position:absolute; top:510px; left:100px}
+.optidermatxt19{position:absolute; top:200px; left:750px}
+
+
+/*-----------------------optifortis--------------------------*/
+.optifortistxt1{position:absolute; top:200px; left:120px}
+.optifortistxt2{position:absolute; top:260px; left:120px}
+.optifortistxt3{position:absolute; top:520px; left:120px}
+.optifortistxt4{position:absolute; top:200px; left:880px}
+
+.optifortistxt5{position:absolute; top:200px; left:100px}
+.optifortistxt6{position:absolute; top:240px; left:100px}
+.optifortistxt7{position:absolute; top:190px; left:870px}
+.optifortistxt8{position:absolute; top:370px; left:100px}
+.optifortistxt9{position:absolute; top:370px; left:530px}
+.optifortistxt10{position:absolute; top:400px; left:850px}
+
+.optifortistxt11{position:absolute; top:220px; left:100px}
+.optifortistxt12{position:absolute; top:260px; left:100px}
+.optifortistxt13{position:absolute; top:220px; left:800px}
+
+.optifortistxt14{position:absolute; top:200px; left:100px}
+.optifortistxt15{position:absolute; top:240px; left:100px}
+.optifortistxt16{position:absolute; top:520px; left:100px}
+.optifortistxt17{position:absolute; top:200px; left:740px}
+
+/*-----------------------optienrich--------------------------*/
+.optienrichtxt1{position:absolute; top:200px; left:120px}
+.optienrichtxt2{position:absolute; top:240px; left:120px}
+.optienrichtxt3{position:absolute; top:520px; left:120px}
+.optienrichtxt4{position:absolute; top:320px; left:840px}
+
+.optienrichtxt5{position:absolute; top:200px; left:100px}
+.optienrichtxt6{position:absolute; top:240px; left:100px}
+.optienrichtxt7{position:absolute; top:190px; left:800px}
+.optienrichtxt8{position:absolute; top:390px; left:100px}
+.optienrichtxt9{position:absolute; top:390px; left:510px}
+.optienrichtxt10{position:absolute; top:390px; left:850px}
+
+.optienrichtxt11{position:absolute; top:220px; left:100px}
+.optienrichtxt12{position:absolute; top:330px; left:100px}
+.optienrichtxt13{position:absolute; top:250px; left:780px}
+
+.optienrichtxt14{position:absolute; top:200px; left:100px}
+.optienrichtxt15{position:absolute; top:240px; left:100px}
+.optienrichtxt16{position:absolute; top:520px; left:100px}
+.optienrichtxt17{position:absolute; top:240px; left:735px}
+
+.main{opacity:0;}

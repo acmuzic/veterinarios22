@@ -1,0 +1,225 @@
+ @font-face {
+ font-family: 'UniversCn';
+ src: url('../fonts/universltstd-cn.eot');
+ src: url('../fonts/universltstd-cn.eot') format('embedded-opentype'), url('../fonts/universltstd-cn.woff') format('woff'), url('../fonts/universltstd-cn.ttf') format('truetype'), url('../fonts/universltstd-cn.svg#UniversCn') format('svg');
+}
+@font-face {
+ font-family: 'UniversBoldCnOb';
+ src: url('../fonts/universltstd-boldcnobl.eot');
+ src: url('../fonts/universltstd-boldcnobl.eot') format('embedded-opentype'),  url('../fonts/universltstd-boldcnobl.woff') format('woff'),  url('../fonts/universltstd-boldcnobl.ttf') format('truetype'),  url('../fonts/universltstd-boldcnobl.svg#UniversLTStd67BoldCondensedOblique') format('svg');
+}
+@font-face {
+    font-family: 'UniversBoldCn';
+    src: url('../fonts/universltstd-boldcn.eot');
+    src: url('../fonts/universltstd-boldcn.eot') format('embedded-opentype'),
+         url('../fonts/universltstd-boldcn.woff') format('woff'),
+         url('../fonts/universltstd-boldcn.ttf') format('truetype'),
+         url('../fonts/universltstd-boldcn.svg#UniversLTStd67BoldCondensed') format('svg');
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+a {outline : none;}
+a img {outline : none;}
+img {border : 0;}
+a:hover, a:active, a:focus {
+  border : 0;
+  outline : none;
+}
+
+img.map, map area{
+    outline: none;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+body {
+	margin: 0;
+	font-family: 'UniversCn', Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	background-color: #1A1A1A;
+	
+}
+p {
+	margin: 0 0 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	
+	color: inherit;
+	text-rendering: optimizelegibility;
+	font-weight:normal;
+	color:#fff;
+}
+
+h1 {
+	font-family: 'UniversBoldCn', Verdana, sans-serif;
+	font-size: 54px;
+	line-height:60px;
+	text-align:center
+}
+h2 {
+	font-size: 47px;
+		line-height:50px;
+	text-align:center
+}
+h3 {
+	font-size: 24px;
+	line-height:40px;
+}
+h4 {
+	font-size: 17px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 11.9px;
+}
+.clear {
+	clear:both;
+}
+.main {
+	width: 1277px;
+	height: 797px;
+	padding: 0;
+	position: absolute;
+	overflow: hidden;
+	background: url(../img/back.gif) no-repeat;
+	left: 1px;	
+}
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----------------------index-------------------------------*/
+
+
+.headerhome {
+	display:block; width:249px; height:95px; position:absolute; top:20px; left:530px
+}
+.perroHome {
+	position: absolute;
+	top:150px;
+	left:170px;
+	float:left;
+	opacity:0;
+}
+.gatoHome {
+	position: absolute;
+	top:150px;
+	left:750px;
+	float:left;
+	opacity:0;
+}
+.perroHome:hover, .gatoHome:hover, .comidaperro:hover, .comidagato:hover, .btnvete:hover, .btncalendar:hover, .btnaccede:hover, .listacomida li a:hover, .cierramod:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+.comidaperro{ position:absolute; top:400px; left:100px; opacity:0;}
+.comidagato{  position:absolute; top:400px; left:685px; opacity:0;}
+
+.btnvete{ position:absolute; top:560px; left:50px; opacity:0;}
+.btncalendar{ position:absolute; top:560px; left:480px; opacity:0;}
+.btnaccede{position:absolute; top:560px; left:820px; opacity:0;}
+
+#shadow1, #shadow2 { width:1277px; height:797px; background: url(../img/productoalpha.png); position:absolute}
+
+#vercomidaperro, #vercomidagato{ position:absolute; top:400px; left:100px}
+#vercomidaperro .imgbtnperro, #vercomidagato .imgbtngato{ width:123px; height:110px; display:block; float:left; margin-right:20px}
+#vercomidaperro .listacomida, #vercomidagato .listacomida{ background:url(../img/backcomidas.gif) no-repeat 150px 60px; width:1100px; height:300px; padding-left:180px}
+#vercomidaperro .listacomida ul, #vercomidagato .listacomida ul{ margin:0; padding:0; list-style-type:none; display:block}
+#vercomidaperro .listacomida ul li, #vercomidagato .listacomida ul li{ display:inline-block}
+#vercomidaperro .cierramod, #vercomidagato .cierramod{ margin:10px 0 0 770px;}
+
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----------------------index perro-------------------------------*/
+
+.ruedaperro1{ position:absolute; top:160px; left:630px; opacity:0; width:577px; height:550px;}
+
+#nav1 {	position:absolute; top:600px; left:60px}
+#nav1 ul {margin:0; padding:0; list-style-type:none; display:block}
+#nav1 ul li { display:inline-block}
+
+.muestracat1{ width:61px; height:119px; display:block; background:url(../img/p-puppy-p.png) no-repeat; float:left}
+.muestracat1:hover{}
+.muestracat2{width:61px; height:119px; display:block; background:url(../img/p-adult-p.png) no-repeat;  float:left}
+.muestracat2:hover{}
+.muestracat3{width:61px; height:119px; display:block; background:url(../img/p-7+-p.png) no-repeat;  float:left}
+.muestracat3:hover{}
+.muestracat4{width:61px; height:119px; display:block; background:url(../img/p-reduced-p.png) no-repeat;  float:left}
+.muestracat5{width:61px; height:119px; display:block; background:url(../img/p-sensitive-p.png) no-repeat;  float:left}
+.muestracat6{width:61px; height:119px; display:block; background:url(../img/p-delicate-p.png) no-repeat;  float:left}
+.muestracat7{width:61px; height:119px; display:block; background:url(../img/p-exigent-p.png) no-repeat;  float:left}
+
+
+#menu1{ background:url(../img/navback.png); width:139px; height:83px; position:absolute; top:500px; left:95px}
+ul#menu1, ul#menu2, ul#menu3 { margin:0; padding:0; list-style-type:none; display:block; padding:10px 0 0 0}
+ul#menu1 li, ul#menu2 li, ul#menu3 li{ margin-bottom:4px}
+ul#menu1 li .menu1-1{ background:url(../img/navback-1a.png); width:139px; height:22px; display:block}
+ul#menu1 li .menu1-1:hover{ background:url(../img/navback-1a-h.png)}
+ul#menu1 li .menu1-2{ background:url(../img/navback-2a.png); width:139px; height:22px; display:block}
+ul#menu1 li .menu1-2:hover{ background:url(../img/navback-2a-h.png)}
+ul#menu1 li .menu1-3{ background:url(../img/navback-3a.png); width:139px; height:22px; display:block}
+ul#menu1 li .menu1-3:hover{ background:url(../img/navback-3a-h.png)}
+
+#menu2{ background:url(../img/navback.png); width:139px; height:83px;  position:absolute; top:500px; left:155px}
+ul#menu2 li .menu2-1{ background:url(../img/navback-1b.png); width:139px; height:22px; display:block}
+ul#menu2 li .menu2-1:hover{ background:url(../img/navback-1b-h.png)}
+ul#menu2 li .menu2-2{ background:url(../img/navback-2b.png); width:139px; height:22px; display:block}
+ul#menu2 li .menu2-2:hover{ background:url(../img/navback-2b-h.png)}
+ul#menu2 li .menu2-3{ background:url(../img/navback-3b.png); width:139px; height:22px; display:block}
+ul#menu2 li .menu2-3:hover{ background:url(../img/navback-3b-h.png)}
+
+#menu3{ background:url(../img/navback.png); width:139px; height:63px;  position:absolute; top:500px; left:220px}
+ul#menu3 li .menu3-1{ background:url(../img/navback-1c.png); width:139px; height:22px; display:block}
+ul#menu3 li .menu3-1:hover{ background:url(../img/navback-1c-h.png)}
+ul#menu3 li .menu3-2{ background:url(../img/navback-2c.png); width:139px; height:22px; display:block}
+ul#menu3 li .menu3-2:hover{ background:url(../img/navback-2c-h.png)}
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----------------------index gato-------------------------------*/
+.etapas{ position:absolute; left:600px; top:200px; opacity:0;}
+.condiciones{position:absolute; left:600px; top:450px; opacity:0;}
+.etapas ul, .condiciones ul{margin:0; padding:0; list-style-type:none; display:block }
+.etapas ul li, .condiciones ul li { display:inline-block}
+.etapas ul li:hover, .condiciones ul li:hover { opacity: 0.8;  filter: alpha(opacity=80); /* For IE8 and earlier */}
+
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----------------------veterinarios-------------------------------*/
+.titvideo{ position:absolute; top:110px; left:25px}
+.video{position:absolute; top:230px; left:250px; width:760px; height:515px; border:#333 10px solid}
+.video2 {position: absolute;top: 270px;left: 250px; width: 760px;height: 430px;border: #333 10px solid;}
+
+/*-----------------------calendario-------------------------------*/
+.titcalendario{ position:absolute; top:110px; left:25px}
+.calendario{position:absolute; top:230px; left:165px; }
+.flecalenant{position:absolute; top:195px; left:1010px; }
+.flecalensig{position:absolute; top:195px; left:1180px; }
+.flecalenant:hover{opacity: 0.4;  filter: alpha(opacity=40); /* For IE8 and earlier */ }
+.flecalensig:hover{opacity: 0.4;  filter: alpha(opacity=40); /* For IE8 and earlier */ }
+
+.fechaCalendario{position:absolute; top:195px; left:1048px; }
+
+/*-----------------------eventos---------------*/
+.evento1a{position:absolute; top:678px; left:328px;}
+.evento1b{position:absolute; top:678px; left:621px;}
+.evento2{position:absolute; top:483px; left:621px;}
+.evento3{position:absolute; top:289px; left:474px;}
+.evento4{position:absolute; top:312px; left:474px;}
+.evento5{position:absolute; top:385px; left:474px;}
+.evento6{position:absolute; top:581px; left:474px;}
+
+.evento7{position:absolute; top:678px; left:623px;}
